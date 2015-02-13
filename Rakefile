@@ -33,9 +33,9 @@ Dir.glob('*.erb').each{|erb|
 }
 
 task :dist do
-  sh 'tar cvzfh Tutorials.tgz Tutorials install'
-  sh 'cat install Tutorials.tgz > Tutorials.bin; rm Tutorials.tgz; chmod +x Tutorials.bin'
-  puts '*** Tutorials.bin created ***'
+  sh 'tar cvzfh Tutorials_alb2.tgz Tutorials_alb2 install'
+  sh 'cat install Tutorials_alb2.tgz > Tutorials_alb2.bin; rm Tutorials_alb2.tgz; chmod +x Tutorials_alb2.bin'
+  puts '*** Tutorials_alb2.bin created ***'
 end
 
 targets = Rake.application.top_level_tasks
