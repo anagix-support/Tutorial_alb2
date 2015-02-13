@@ -338,10 +338,20 @@ Default Devicesのチェックを外すと、理想モデルはネットリス�
     :scale: 75%
     :target: http://alb.anagix.com:8180/myGyazo/data/736db9130e42e7154a76601eb1ce2c9d.png
 
-ついでに、Convert 'μ' to 'u'
+ついでに、
+
+.. raw:: html
+
+   <input type="checkbox" value="true">Convert 'μ' to 'u'</input>
+
 にはチェックを入れておいた方が良いです。
 
 :ref:`モデル名を入力した際<mistake>` のモデル名を正しいもの（cmosnとcmosp）に変えて、シミュレーションを
 実行してみてください。
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+

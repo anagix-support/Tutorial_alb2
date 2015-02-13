@@ -11,40 +11,41 @@ http://alb.anagix.com:8180
 User IDとPasswordを入力し、Login してください。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/a72a396dc288f649bf4a9f94173c8fb1.png
+.. http://alb.anagix.com:8180/myGyazo/data/d29c4d04a234b7aa5d9c52fd1e53d1b1.png
 
-.. image:: images/a72a396dc288f649bf4a9f94173c8fb1.png
+.. image:: images/d29c4d04a234b7aa5d9c52fd1e53d1b1.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/a72a396dc288f649bf4a9f94173c8fb1.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/d29c4d04a234b7aa5d9c52fd1e53d1b1.png
 
 Setupボタンを押すと、以下の画面が表示されます。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/97fda60676239d3678fc0258f84d26fc.png
+.. http://alb.anagix.com:8180/myGyazo/data/f5e60262fe4cc333c67cf5cfebc9dce8.png
 
-.. image:: images/97fda60676239d3678fc0258f84d26fc.png
+.. image:: images/f5e60262fe4cc333c67cf5cfebc9dce8.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/97fda60676239d3678fc0258f84d26fc.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/f5e60262fe4cc333c67cf5cfebc9dce8.png
 
 プロジェクトを選択する
 -------------------
 Choose projectのプルダウンにプロジェクトの一覧が表示されます。
 
-.. http://alb.anagix.com:8180/myGyazo/data/dfc04125f3f6f1a430b0bc714f83db47.png
 
-.. image:: images/dfc04125f3f6f1a430b0bc714f83db47.png
+.. http://alb.anagix.com:8180/myGyazo/data/241f7d13b4a08267caa7e164b079da85.png
+
+.. image:: images/241f7d13b4a08267caa7e164b079da85.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/dfc04125f3f6f1a430b0bc714f83db47.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/241f7d13b4a08267caa7e164b079da85.png
 
 ALTA sampleを選択すると、ALBタブ画面にかわります。画面の左側に回路、右側にモデルライブラリが表示
 されています。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/8c5aaeff0c612e607158298967628d13.png
+.. http://alb.anagix.com:8180/myGyazo/data/e8a4198286dab9a01ba8820bb7889a06.png
 
-.. image:: images/8c5aaeff0c612e607158298967628d13.png
+.. image:: images/e8a4198286dab9a01ba8820bb7889a06.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/8c5aaeff0c612e607158298967628d13.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/e8a4198286dab9a01ba8820bb7889a06.png
 
 circuitsから、circuits->opamp->instance0->testbenches と展開すると上図の画面になります。
 
@@ -54,11 +55,11 @@ CMRR(asc)の上でダブルクリックするか、下のCommandsからEditを�
 ください。下図のようにALTAの画面が、Schematicタブに変わります．
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/2233a771ea4af2f6ce9d4b5748ab3f3a.png
+.. http://alb.anagix.com:8180/myGyazo/data/08faa250d9b9c5950695c03e888fb223.png
 
-.. image:: images/2233a771ea4af2f6ce9d4b5748ab3f3a.png
+.. image:: images/08faa250d9b9c5950695c03e888fb223.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/2233a771ea4af2f6ce9d4b5748ab3f3a.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/08faa250d9b9c5950695c03e888fb223.png
 
 続いて、以下のようにLTspice画面が出てくれば成功です。
 
@@ -84,6 +85,15 @@ Runボタン（人が走っているアイコン）をクリックするとシ�
 ローカルPC上の回路データは自動的に削除されますが、ローカルPC上に残すためには、ALTAの上で
 
 
-Remove job dir.のチェックを外した後で、LTspiceを終了するようにしてください。
+.. raw:: html
 
-以上
+   <input type="checkbox" value="true">Remove job dir.</input>
+
+のチェックを外した後で、LTspiceを終了するようにしてください。
+
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+

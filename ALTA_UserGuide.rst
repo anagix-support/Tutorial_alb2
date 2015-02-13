@@ -424,6 +424,11 @@ ALBに接続していない状態でも、シミュレーションプランナ�
 
 Alta → Tools → Open → AltaPlanner
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+
 
 

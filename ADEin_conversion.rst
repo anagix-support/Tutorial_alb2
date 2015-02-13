@@ -441,6 +441,11 @@ ALTAの表示が以下のように Simulationタブに変わります。Show net
 ALBのネットリストでは 160Kでした。（もともとのCadence ADEで、ネットリストを作成したあとで、回路図を
 変更したためにこのようなことが起きました。）
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+
 
 

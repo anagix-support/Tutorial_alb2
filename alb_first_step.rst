@@ -440,4 +440,9 @@ Statusが completedに変わり、プロットの表示が出ています。
 Move lastをクリックしてください。ちなみに、DLをクリックすれば、Excelのcsv形式でシミュレーション
 結果をダウンロードすることができます。
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+

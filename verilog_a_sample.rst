@@ -594,5 +594,10 @@ ALBサーバでは、Spectreを実行できないが、ローカルのALTA上で
 実行できる場合に有効です。また、長時間のシミュレーションの場合、ALBサーバで実行させることは
 好ましくないので、この方法をお試しください。
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+
 

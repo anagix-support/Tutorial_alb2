@@ -368,4 +368,9 @@ Yaxisを、auto, auto に変更し、Saveすると以下のようにゲインと
     :scale: 75%
     :target: http://alb.anagix.com:8180/myGyazo/data/17620a1e80a095fd78bf6c02a513fa94.png
 
-以上
+.. raw:: html
+
+   <DIV align="right">以上</DIV>
+
+   <!-- DIV style="text-align: right;" >以上</DIV -->
+
