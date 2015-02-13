@@ -1,0 +1,13 @@
+.DS_Store
+**/.DS_Store
+*~
+**/*~
+/_build
+/tmp
+/fonts
+/images
+Rakefile.old
+ja.json_HIIRAGI
+schematic_creation.rst_in
+*.tgz
+*.bin

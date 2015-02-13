@@ -1,0 +1,19 @@
+require 'erb'
+require 'rubygems'
+require 'ruby-debug'
+
+selection = {
+  'denso' => %[alta_first_step schematic_creation schematic_creation_fujitsu65n],
+  'public' => %[alta_first_step schematic_creation]
+}  
+
+selection.each_pair{|tgt, sel|
+  task tgt => 'index.erb' do |t|
+    erb = ERB.new(File.read(t.prerequisites.first))
+    File.open('index.rst', 'w'){|f| f.puts erb.result(binding)}
+  end
+}
+
+def select selection, item
+  item if selection.include? item
+end

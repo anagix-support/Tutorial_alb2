@@ -1,0 +1,19 @@
+{
+  "embeddedFonts" :
+  [["migmix-1p-regular.ttf",
+    "migmix-1p-bold.ttf",
+    "migu-1m-regular.ttf",
+    "migu-1m-bold.ttf"]],
+  "fontsAlias" : {
+    "stdFont": "MigMix 1P Regular",
+    "stdBold": "MigMix 1P Bold",
+    "stdItalic": "MigMix 1P Bold",
+    "stdBoldItalic": "MigMix 1P Bold",
+    "stdMono": "Migu 1M Regular"
+  },
+  "styles" : [
+    ["base" , {
+      "wordWrap": "CJK"
+    }]
+  ]
+}
