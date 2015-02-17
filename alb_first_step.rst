@@ -2,51 +2,51 @@
 ==============
 ALB最初の一歩
 ==============
-(2013.4.27修正)
+(2015.2.15修正)
 
 ALBにログインする
 ---------------
 ALBにログインすると最初に表示されるページをHomeページと呼びます。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/1ba368e12b519e685ab1587bee5c0962.png
+.. http://alb.anagix.com:8180/myGyazo/data/df1e7aef396f2c58c4d838611a646949.png
 
-.. image:: images/1ba368e12b519e685ab1587bee5c0962.png
+.. image:: images/df1e7aef396f2c58c4d838611a646949.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/1ba368e12b519e685ab1587bee5c0962.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/df1e7aef396f2c58c4d838611a646949.png
 
 Choose a project you are involved: と表示された行の下に、Allという文字列が表示されたプルダウンメニュがあります。その中から
 プロジェクトを選択してください。ここでは、ユーザ名と同じ名前のプロジェクトを選択します。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/9787dcb17151ce230e7d43122c3b7def.png
+.. http://alb.anagix.com:8180/myGyazo/data/5a7d57a065b6f10160631c651da05426.png
 
-.. image:: images/9787dcb17151ce230e7d43122c3b7def.png
+.. image:: images/5a7d57a065b6f10160631c651da05426.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/9787dcb17151ce230e7d43122c3b7def.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/5a7d57a065b6f10160631c651da05426.png
 
 最初は、空なので表示されるライブラリはありません。
 
 ライブラリを作る
 ---------------
 
-New Libraryをクリックしてライブラリを作成します。
+New Library(Libraryを新規作成)をクリックしてライブラリを作成します。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/333722d28a988a66ff9ea612aa8d6ceb.png
+.. http://alb.anagix.com:8180/myGyazo/data/93de666b10346af0d0f011f55e4e8ed9.png
 
-.. image:: images/333722d28a988a66ff9ea612aa8d6ceb.png
+.. image:: images/93de666b10346af0d0f011f55e4e8ed9.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/333722d28a988a66ff9ea612aa8d6ceb.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/93de666b10346af0d0f011f55e4e8ed9.png
 
-CreateLibraryをクリックして、testLibという名前のライブラリを作成しました。
+CreateLibrary(Libraryを作成する）をクリックして、testLibという名前のライブラリを作成しました。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/2208f714629eaa90871bf3ede3d3d0d3.png
+.. http://alb.anagix.com:8180/myGyazo/data/be0ae207a652f2144529d60fb9b8bbe7.png
 
-.. image:: images/2208f714629eaa90871bf3ede3d3d0d3.png
+.. image:: images/be0ae207a652f2144529d60fb9b8bbe7.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/2208f714629eaa90871bf3ede3d3d0d3.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/be0ae207a652f2144529d60fb9b8bbe7.png
 
 表示されるセル（回路）はありません。この下に、回路を作成します。
 
@@ -55,36 +55,37 @@ CreateLibraryをクリックして、testLibという名前のライブラリを
 simpleという名前で回路を作ります。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/d2e0cfb8c452c32ffc150080b065720f.png
+.. http://alb.anagix.com:8180/myGyazo/data/ea85b9529c2a70034335bd13afc2573d.png
 
-.. image:: images/d2e0cfb8c452c32ffc150080b065720f.png
+.. image:: images/ea85b9529c2a70034335bd13afc2573d.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/d2e0cfb8c452c32ffc150080b065720f.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/ea85b9529c2a70034335bd13afc2573d.png
 
 このセルは、いわば箱で、この下に具体的なシミュレータに対応したネットリストを作成します。
-今回は、LTspice用のネットリストを作成するので、LTspiceを選択し、Create Cellをクリック
-してください。
+今回は、LTspice用のネットリストを作成するので、LTspiceを選択し、Create Cell（セルを作成する）
+をクリックしてください。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/cfebd9556821865c9cbba7b54fbb687b.png
+.. http://alb.anagix.com:8180/myGyazo/data/edb95ca7edecbb68cc542cda11e1487d.png
 
-.. image:: images/cfebd9556821865c9cbba7b54fbb687b.png
+.. image:: images/edb95ca7edecbb68cc542cda11e1487d.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/cfebd9556821865c9cbba7b54fbb687b.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/edb95ca7edecbb68cc542cda11e1487d.png
 
 以下のように simple というcellが作成されました。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/d6cff31ae4580b6e5ad8e8c5332e58ee.png
+.. http://alb.anagix.com:8180/myGyazo/data/96938d4c1da33fb29a3a90ba25a010c3.png
 
-.. image:: images/d6cff31ae4580b6e5ad8e8c5332e58ee.png
+.. image:: images/96938d4c1da33fb29a3a90ba25a010c3.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/d6cff31ae4580b6e5ad8e8c5332e58ee.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/96938d4c1da33fb29a3a90ba25a010c3.png
 
-*注意１：* もしも、シミュレータを選択する前に Create Cellしてしまった場合は、Edit Cell
-をクリックしてシミュレータを選択しなおしてください。
+*注意１：* もしも、シミュレータを選択する前に Create Cell（セルを作成）してしまった場合は、Edit Cell
+（セルを編集）をクリックしてシミュレータを選択しなおしてください。
 
-*注意２：* セルを作り直したいときは、Edit Cellの画面の右上にある、Remove This Cellを実行します。
+*注意２：* セルを作り直したいときは、Edit Cell（セルを編集）の画面の右上にある、Remove This Cell
+（セルを削除）を実行します。
 
 ネットリストを作成する
 -------------------
@@ -92,13 +93,13 @@ simpleという名前で回路を作ります。
 LTspice用のネットリストを作成するために、New Cell Implementationをクリックします。
 
 
-.. http://alb.anagix.com:8180/myGyazo/data/9095a10ef6041d95d874cba45790427b.png
+.. http://alb.anagix.com:8180/myGyazo/data/e2089698a4bca1fc79f29a9464bcedea.png
 
-.. image:: images/9095a10ef6041d95d874cba45790427b.png
+.. image:: images/e2089698a4bca1fc79f29a9464bcedea.png
     :scale: 75%
-    :target: http://alb.anagix.com:8180/myGyazo/data/9095a10ef6041d95d874cba45790427b.png
+    :target: http://alb.anagix.com:8180/myGyazo/data/e2089698a4bca1fc79f29a9464bcedea.png
 
-Create Cell Implementationをクリックするとネットリストが作成されます。
+Create Cell Implementation（セル実例を作成する）をクリックするとネットリストが作成されます。
 
 .dcや.printのようなシミュレータの制御コマンド（古い人は制御カードとも呼ぶ）を一緒に入力したことに
 注意してください。シミュレーションするために必要なシミュレーションインスタンス
